@@ -2,8 +2,8 @@
 
 Input your api key in plain text in api_key.txt
 
-// api_key.txt...
-your-api-key
+api_key.txt
+...your-api-key
   
   Then, run the client and server in two terminals:
   
