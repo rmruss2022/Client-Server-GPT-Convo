@@ -6,11 +6,11 @@ Input your OpenAI api key in plain text in api_key.txt
   Then, run the client and server in two terminals:
   
   <pre>
-\`python chat-client.py`
+python chat-client.py
 </pre>
 
 <pre>
-\`python chat-server.py`
+python chat-server.py
 </pre>
   
   Finally, start the conversation with a curl http request:
