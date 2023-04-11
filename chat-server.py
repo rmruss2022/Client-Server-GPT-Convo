@@ -3,7 +3,12 @@ import openai
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+def read_api_key_from_file():
+    with open('api_key.txt', "r") as f:
+        return f.readline().strip()
+
+openai.api_key = read_api_key_from_file()
+
 
 @app.route('/conversation', methods=['POST'])
 def conversation():
