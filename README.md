@@ -18,5 +18,7 @@ python chat-server.py
 <pre>
   curl -X POST -H "Content-Type: application/json" -d '{"message": "What fictional or non-fictional location would you travel to first? Who would you take along and why? Reason why and have a discussion about it and limit your response to three sentences."}' http://localhost:5000/start_conversation
 </pre>
+
+Edit the prompts in chat-client.py for your own use cases!
   
   Enjoy overdrafting your OpenAI account! 😄 ctrl-c the terminal windows when you have had enough of the conversation. View the history in your history folder.
